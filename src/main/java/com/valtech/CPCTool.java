@@ -91,7 +91,7 @@ public class CPCTool {
             wjRow1.createCell(4).setCellValue("{"+ ajUId.toUpperCase()  +"}");
             wjRow1.createCell(5).setCellValue("0");
             wjRow1.createCell(6).setCellValue(createdTime);
-            wjRow1.createCell(7).setCellValue("\\cases\\designs\\"+sqUId+"\\others\\"+ajUId+"\\100016\\100016.doc");
+            wjRow1.createCell(7).setCellValue("\\cases\\"+getTypeFolderName(Integer.valueOf(sqSerial.substring(4,5)))+"\\"+sqUId+"\\others\\"+ajUId+"\\100016\\100016.doc");
             wjRow1.createCell(8).setCellValue("1");
             wjRow1.createCell(9).setCellValue(0);
             wjRow1.createCell(11).setCellValue(2);
@@ -104,7 +104,7 @@ public class CPCTool {
             wjRow2.createCell(4).setCellValue("{"+ ajUId.toUpperCase()  +"}");
             wjRow2.createCell(5).setCellValue("0");
             wjRow2.createCell(6).setCellValue(createdTime);
-            wjRow2.createCell(7).setCellValue("\\cases\\designs\\"+sqUId+"\\others\\"+ajUId+"\\100104\\100104-1.doc");
+            wjRow2.createCell(7).setCellValue("\\cases\\"+getTypeFolderName(Integer.valueOf(sqSerial.substring(4,5)))+"\\"+sqUId+"\\others\\"+ajUId+"\\100104\\100104-1.doc");
             wjRow2.createCell(8).setCellValue("1");
             wjRow2.createCell(9).setCellValue(0);
             wjRow2.createCell(11).setCellValue(2);
