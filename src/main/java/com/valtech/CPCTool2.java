@@ -173,6 +173,7 @@ public class CPCTool2 {
                 new File(d104Dir).mkdirs();
                 int picNum = 0;
                 //<图片或照片 顺序="1"><说明>专利代理机构委托解聘书-1</说明><文件名称>220414214844.jpg</文件名称></图片或照片>
+                //图片尺寸上限 165mm x 245mm resize to 134.94mm
                 StringBuffer sb = new StringBuffer();
                 for (File picFile : picFiles) {
                     String picName = picNameFmt.format(new Date()) + String.format("%02d", ++picNum);

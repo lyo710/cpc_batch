@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cpc_batch" />
+        <module name="cpc-batch" />
       </profile>
     </annotationProcessing>
   </component>
