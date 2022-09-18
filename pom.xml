@@ -42,6 +42,14 @@
             <systemPath>${project.basedir}/src/main/resources/aspose-words-20.12-jdk17-cracked.jar</systemPath>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.26</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>
